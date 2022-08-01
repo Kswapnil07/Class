@@ -1,7 +1,5 @@
 package maps;
 
-import java.util.ArrayList;
-
 public class Student {
 
 	int id,marks;
@@ -17,12 +15,6 @@ public class Student {
 		return id+" "+marks+" "+name+" "+dept;
 	}
 	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-		ArrayList<Student> al=new ArrayList<>();
-		
-		
-	}
 
 }

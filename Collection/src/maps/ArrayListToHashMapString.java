@@ -23,18 +23,18 @@ public class ArrayListToHashMapString {
 		al.add("Mon");
 		al.add("Tus");
 		
-		HashMap<String ,String> hm=new HashMap<>();
+		HashMap<String ,Integer> hm=new HashMap<>();
 		for(String s:al)
 		{
 			if(hm.containsKey(s))
 			{
-				String v=hm.get(s)+1;
+				int v=hm.get(s)+1;
 				hm.put(s, v);
 			}
 			
 		
 		else
-			hm.put(s, "1");
+			hm.put(s, 1);
 			
 		}
 		System.out.println(hm);

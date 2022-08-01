@@ -35,10 +35,7 @@ public class Student1 implements Comparable<Student1> {
 		}
 		else
 			return this.dept.compareTo(st.dept);
-			
-			
-			
-		
+				
 		
 	}
 	
