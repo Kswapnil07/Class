@@ -20,10 +20,10 @@ public class Example1 {
 		tm.put(143, "pooja");
 		tm.put(153, "Vijay");
 		
-		System.out.println(tm);
-		System.out.println(tm.descendingMap());
+		//System.out.println(tm);
+		//System.out.println(tm.descendingMap());
 		//System.out.println(tm.getOrDefault(255, "no available"));
-		System.out.println(tm.ceilingKey(103)); //it will return key which is greater than 103
+		//System.out.println(tm.ceilingKey(103)); //it will return key which is greater than 103
 		System.out.println(tm.ceilingEntry(103));
 		
 		System.out.println(tm.floorKey(133));//return key less than 133

@@ -20,24 +20,24 @@ public class Student1 implements Comparable<Student1> {
 	public int compareTo(Student1 st)
 	{
 		
-		if( this.dept.equals(st.dept))
-		{
-	
-		
-			if(this.marks>st.marks)
-				return 1;
-			else if(this.marks<st.marks)
-				return -1;
-			
-			else
-				//return this.id-st.id;
-			return this.name.compareTo((st.name));
+//		if( this.dept.equals(st.dept))
+//		{
+//	
+//		
+//			if(this.marks>st.marks)
+//				return 1;
+//			else if(this.marks<st.marks)
+//				return -1;
+//			
+//			else
+				return this.id-st.id;
+			//return this.name.compareTo((st.name));
 		}
-		else
-			return this.dept.compareTo(st.dept);
+//		else
+//			return this.dept.compareTo(st.dept);
 				
 		
-	}
+	
 	
 	
 }

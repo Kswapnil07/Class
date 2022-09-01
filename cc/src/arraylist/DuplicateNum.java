@@ -1,8 +1,8 @@
-package array;
+package arraylist;
 
 import java.util.ArrayList;
 
-public class Duplicate {
+public class DuplicateNum {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -19,11 +19,11 @@ public class Duplicate {
 		System.out.println(al);
 		
 		ArrayList<Integer> n=new ArrayList<>();
-	
+		
 		for(Integer e:al)
 		{
 			if(!n.contains(e))
-			//if(e%2!=0)
+			if(e%2==0)
 			{
 				n.add(e);
 			}
@@ -32,27 +32,8 @@ public class Duplicate {
 		{
 			System.out.println(en);
 		}
-//		for(int i=0;i<al.size();i++)
-//		{
-//			int cnt=0;
-//			for(int j=0;j<al.size();j++)
-//			{
-//				if(al.get(i)==al.get(j) && j<i)
-//				{
-//					break;
-//				}
-//				else if(al.get(i)==al.get(j) && j>=i)
-//				{
-//					cnt++;
-//				}
-//			}
-//			if(cnt!=0)
-//			{
-//				n.add(al.get(i));
-//			}
-//			
-//		}
-//		System.out.println(n);
+		
+		
 	}
 
 }

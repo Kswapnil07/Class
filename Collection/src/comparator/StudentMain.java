@@ -25,8 +25,8 @@ public class StudentMain {
 		//System.out.println(al);
 		//Collections.sort(al);
 		//Collections.sort(al,new StudentdeptComparator());
-		//Collections.sort(al,new StudentComparator ());
-		Collections.sort(al,new StudentName());
+		Collections.sort(al,new StudentComparator ());
+		//Collections.sort(al,new StudentName());
 		System.out.println(al);
 	}
 
